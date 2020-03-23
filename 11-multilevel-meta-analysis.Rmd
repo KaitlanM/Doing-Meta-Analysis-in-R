@@ -218,7 +218,7 @@ model.l3.removed<-rma.mv(y,
                    sigma2 = c(NA, 0))
 summary(model.l3.removed)
 
-anova(full.model, model.l2.removed)
+anova(full.model, model.l3.removed)
 
 ```
 
